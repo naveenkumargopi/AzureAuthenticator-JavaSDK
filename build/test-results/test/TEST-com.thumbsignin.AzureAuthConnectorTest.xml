@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thumbsignin.AzureAuthConnectorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-11-18T12:20:04" hostname="IMCHLT119" time="34.229">
+  <properties/>
+  <testcase name="testGetUserNameById" classname="com.thumbsignin.AzureAuthConnectorTest" time="31.854"/>
+  <testcase name="testAzureUserAuthenticationPositiveFlow" classname="com.thumbsignin.AzureAuthConnectorTest" time="0.734"/>
+  <testcase name="testAzureUserAuthenticationNegativeFlow" classname="com.thumbsignin.AzureAuthConnectorTest" time="0.717"/>
+  <testcase name="testUserMembershipInfo" classname="com.thumbsignin.AzureAuthConnectorTest" time="0.921"/>
+  <system-out><![CDATA[17:50:04.238 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Getting access_token by client credentials..
+17:50:04.335 [pool-1-thread-1] INFO  c.m.a.adal4j.AuthenticationAuthority - [Correlation ID: 9cb42214-0bdd-439a-8f26-0b530b2b15bc] Instance discovery was successful
+17:50:20.665 [pool-1-thread-1] DEBUG c.m.aad.adal4j.AuthenticationContext - [Correlation ID: 9cb42214-0bdd-439a-8f26-0b530b2b15bc] Access Token was returned
+17:50:20.666 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Start Time.
+17:50:36.088 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Response: Demo
+17:50:36.092 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Start Time.
+17:50:36.824 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Response: {"sub":"P-m-LZUBbVusMQO16VbuALE7hbGKNuzCukL40goSlgs","ver":"1.0","amr":["pwd"],"iss":"https://sts.windows.net/c5bd07ef-f708-4577-84ce-e0e1faca9b8f/","oid":"57d47a0b-b834-4906-b60b-2bd177f6369e","given_name":"Demo","tid":"c5bd07ef-f708-4577-84ce-e0e1faca9b8f","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IndVTG1ZZnNxZFF1V3RWXy1oeFZ0REpKWk00USIsImtpZCI6IndVTG1ZZnNxZFF1V3RWXy1oeFZ0REpKWk00USJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLndpbmRvd3MubmV0IiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYzViZDA3ZWYtZjcwOC00NTc3LTg0Y2UtZTBlMWZhY2E5YjhmLyIsImlhdCI6MTU0MjU0MzMzNiwibmJmIjoxNTQyNTQzMzM2LCJleHAiOjE1NDI1NDcyMzYsImFjciI6IjEiLCJhaW8iOiI0MlJnWU5DY2FMbFMzbVdpUnAxdHJIUzAyRzZXSHljWloyOExtTTRmZXpob2ovUGRMVjhCIiwiYW1yIjpbInB3ZCJdLCJhcHBpZCI6IjMwNDA4YjYwLWNjZGMtNDUzMy04NTJhLTIyMGU3NWE2NjMzZiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiQWNjb3VudCIsImdpdmVuX25hbWUiOiJEZW1vIiwiaXBhZGRyIjoiNDkuMjA0LjIxMS4xMTYiLCJuYW1lIjoiRGVtbyBBY2NvdW50Iiwib2lkIjoiNTdkNDdhMGItYjgzNC00OTA2LWI2MGItMmJkMTc3ZjYzNjllIiwicHVpZCI6IjEwMDMzRkZGQUZDOTNCNjYiLCJzY3AiOiJEaXJlY3RvcnkuUmVhZC5BbGwgVXNlci5SZWFkIiwic3ViIjoiV19BZEJjRGFiVGw0UFlUbzBNNmZOaHl5ZlVYY0VuR1BITXNxeFNyQko5TSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJOQSIsInRpZCI6ImM1YmQwN2VmLWY3MDgtNDU3Ny04NGNlLWUwZTFmYWNhOWI4ZiIsInVuaXF1ZV9uYW1lIjoiZGVtb0BhazE5NzZob3RtYWlsLm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImRlbW9AYWsxOTc2aG90bWFpbC5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiJfZGJEVU0zTjhVMjdmZ0hsS1VrcEFBIiwidmVyIjoiMS4wIn0.Nm_deTUV8ky-kOUFxil-Nt7mxMmIOm74p3HvG9nkhLuIjW2NrTgr2-rnqjtD2mCrhTbB8fQTGF5fbfyblFzt_8czso2_mey5fJyZiZtOwBlSmod2s7TnknRzJ2ZzvHBMih0WkSohUjyoKc3rHgkSXhMJzmqPVDNpUEEmLiddWYl-oPNW-UAMIlDg3bCe_aSb-NxRa1bdr6V8vktX7QYR_wrjh67iKVBLJe6eLsaxKXtrN5pkipETVz-cEYZ8R1KyTN1zTmhWViuHJDdB2TUgVxhmsmgB1aieL79fExrKwZZy7oEm2rX4avr2z3r1wO10Z3GE1Vl0laym3IJCm62vgA","aud":"30408b60-ccdc-4533-852a-220e75a6633f","unique_name":"demo@ak1976hotmail.onmicrosoft.com","upn":"demo@ak1976hotmail.onmicrosoft.com","nbf":1542543336,"name":"Demo Account","exp":1542547236,"ipaddr":"49.204.211.116","iat":1542543336,"family_name":"Account"}
+17:50:36.827 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Start Time.
+17:50:37.543 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Response: {"error":"invalid_grant","error_description":"AADSTS70002: Error validating credentials. AADSTS50126: Invalid username or password\r\nTrace ID: 99ba2b28-65c7-47d3-a5ef-42c167be3200\r\nCorrelation ID: 16824cfb-6df5-4951-8e47-76e4782d8306\r\nTimestamp: 2018-11-18 12:20:37Z","error_codes":[70002,50126],"timestamp":"2018-11-18 12:20:37Z","trace_id":"99ba2b28-65c7-47d3-a5ef-42c167be3200","correlation_id":"16824cfb-6df5-4951-8e47-76e4782d8306"}
+17:50:37.545 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Getting access_token by client credentials..
+17:50:37.548 [pool-2-thread-1] INFO  c.m.a.adal4j.AuthenticationAuthority - [Correlation ID: bab43bf3-b682-4893-858f-ce46f54befd4] Instance discovery was successful
+17:50:38.183 [pool-2-thread-1] DEBUG c.m.aad.adal4j.AuthenticationContext - [Correlation ID: bab43bf3-b682-4893-858f-ce46f54befd4] Access Token was returned
+17:50:38.183 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Start Time.
+17:50:38.465 [Test worker] INFO  c.thumbsignin.AzureAuthConnectorTest - Response: [com.thumbsignin.domain.Membership@188d1723]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
